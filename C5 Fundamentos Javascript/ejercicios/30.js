@@ -7,6 +7,10 @@ function deEuroAdolar(euro) {
   // 1 ---> 1.20
   // 0 ---> 0
   // Tu código:
-}
+  var tasaCambio = (1.20)
+  var dolar = euro * tasaCambio
+    return  dolar
+  }
+       
 
 module.exports = deEuroAdolar;
